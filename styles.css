@@ -22,3 +22,16 @@ ul {
 ul li {
     margin: 0.5rem 0;
 }
+img {
+    border-radius: 50%;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+nav ul li a:hover {
+    background: #444;
+}
